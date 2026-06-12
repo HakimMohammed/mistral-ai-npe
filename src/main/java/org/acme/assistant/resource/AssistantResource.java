@@ -1,4 +1,6 @@
-package org.acme;
+package org.acme.assistant.resource;
+
+import org.acme.assistant.agent.Assistant;
 
 import io.smallrye.mutiny.Multi;
 import jakarta.inject.Inject;

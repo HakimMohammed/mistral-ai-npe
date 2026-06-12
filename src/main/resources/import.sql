@@ -1,0 +1,11 @@
+INSERT INTO Book(id, title, description, author) VALUES (1, 'The Pragmatic Programmer', 'Classic guide to software craftsmanship', 'Andrew Hunt');
+INSERT INTO Book(id, title, description, author) VALUES (2, 'Clean Code', 'A handbook of agile software craftsmanship', 'Robert C. Martin');
+INSERT INTO Book(id, title, description, author) VALUES (3, 'Effective Java', 'Best practices for the Java platform', 'Joshua Bloch');
+INSERT INTO Book(id, title, description, author) VALUES (4, 'Refactoring', 'Improving the design of existing code', 'Martin Fowler');
+INSERT INTO Book(id, title, description, author) VALUES (5, 'Design Patterns', 'Elements of reusable object-oriented software', 'Erich Gamma');
+INSERT INTO Book(id, title, description, author) VALUES (6, 'Domain-Driven Design', 'Tackling complexity in the heart of software', 'Eric Evans');
+INSERT INTO Book(id, title, description, author) VALUES (7, 'The Mythical Man-Month', 'Essays on software engineering', 'Fred Brooks');
+INSERT INTO Book(id, title, description, author) VALUES (8, 'Working Effectively with Legacy Code', 'Strategies for changing legacy systems', 'Michael Feathers');
+INSERT INTO Book(id, title, description, author) VALUES (9, 'Code Complete', 'A practical handbook of software construction', 'Steve McConnell');
+INSERT INTO Book(id, title, description, author) VALUES (10, 'Java Concurrency in Practice', 'Concurrent programming on the JVM', 'Brian Goetz');
+ALTER SEQUENCE Book_SEQ RESTART WITH 11;
